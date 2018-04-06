@@ -9,6 +9,7 @@
 import UIKit
 import CoreLocation
 import GoogleMaps
+import GooglePlaces
 
 class ViewController: UIViewController, CLLocationManagerDelegate {
     
@@ -16,16 +17,16 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     
     var minimalRetroStyle: GMSMapStyle!
     
+    @IBOutlet weak var LocationA: UITextField!
+    @IBOutlet weak var LocationB: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        //setting ViewController as a delegate of locationManager
-        locationManager.delegate = self
-        locationManager.desiredAccuracy = kCLLocationAccuracyBest
-        locationManager.requestWhenInUseAuthorization()
-        
-        //Google Maps API
+        //GoogleMaps
         GMSServices.provideAPIKey("AIzaSyBJmHjPpr2ijDFSQjG-AUXC3r9Re4K2uGA")
+        //GooglePlaces
+        GMSPlacesClient.provideAPIKey("AIzaSyBJmHjPpr2ijDFSQjG-AUXC3r9Re4K2uGA")
         
         let camera = GMSCameraPosition.camera(withLatitude: 37.7749, longitude: -122.478, zoom: 10.25)
         let mapView = GMSMapView.map(withFrame: CGRect.zero, camera: camera)
