@@ -16,6 +16,7 @@
 		B74936F72076FEDF005272E7 /* In_the_MiddleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74936F62076FEDF005272E7 /* In_the_MiddleTests.swift */; };
 		B74937022076FEDF005272E7 /* In_the_MiddleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74937012076FEDF005272E7 /* In_the_MiddleUITests.swift */; };
 		B74937102077023E005272E7 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = B749370F2077023E005272E7 /* Podfile */; };
+		B78CBC6620770A3B00B3D6A5 /* minimalRetro.json in Resources */ = {isa = PBXBuildFile; fileRef = B78CBC6520770A3B00B3D6A5 /* minimalRetro.json */; };
 		D9C7F4564AB22D93F6A52518 /* libPods-In-the-Middle.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B2AC58F71A7F151F76C52909 /* libPods-In-the-Middle.a */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +56,7 @@
 		B74937012076FEDF005272E7 /* In_the_MiddleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = In_the_MiddleUITests.swift; sourceTree = "<group>"; };
 		B74937032076FEDF005272E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B749370F2077023E005272E7 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		B78CBC6520770A3B00B3D6A5 /* minimalRetro.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = minimalRetro.json; path = ../../../Middle/Middle/minimalRetro.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,10 +120,11 @@
 		B74936DD2076FEDF005272E7 /* In-the-Middle */ = {
 			isa = PBXGroup;
 			children = (
-				B74936DE2076FEDF005272E7 /* AppDelegate.swift */,
-				B74936E02076FEDF005272E7 /* ViewController.swift */,
 				B74936E22076FEDF005272E7 /* Main.storyboard */,
+				B74936E02076FEDF005272E7 /* ViewController.swift */,
+				B74936DE2076FEDF005272E7 /* AppDelegate.swift */,
 				B74936E82076FEDF005272E7 /* Assets.xcassets */,
+				B78CBC6520770A3B00B3D6A5 /* minimalRetro.json */,
 				B74936EA2076FEDF005272E7 /* LaunchScreen.storyboard */,
 				B74936ED2076FEDF005272E7 /* Info.plist */,
 				B74936E52076FEDF005272E7 /* In_the_Middle.xcdatamodeld */,
@@ -266,6 +269,7 @@
 			files = (
 				B74936EC2076FEDF005272E7 /* LaunchScreen.storyboard in Resources */,
 				B74936E92076FEDF005272E7 /* Assets.xcassets in Resources */,
+				B78CBC6620770A3B00B3D6A5 /* minimalRetro.json in Resources */,
 				B74937102077023E005272E7 /* Podfile in Resources */,
 				B74936E42076FEDF005272E7 /* Main.storyboard in Resources */,
 			);
